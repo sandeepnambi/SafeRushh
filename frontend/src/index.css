@@ -1,0 +1,104 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f7f6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Basic Form Styling */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* Important */
+}
+
+.form-btn {
+  width: 100%;
+  padding: 0.85rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-link {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+.form-link:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #d93025;
+  background: #fdf4f4;
+  border: 1px solid #f9d6d4;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Map Container */
+.map-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  padding: 10px 20px;
+  background: white;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  cursor: pointer;
+  font-weight: 600;
+}
